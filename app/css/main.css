@@ -114,3 +114,8 @@
     border-color: transparent;
     
 }
+
+.btn-mensaje-leido {
+    color: rgb(2, 131, 114);
+    margin-left: 5px;
+}

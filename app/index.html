@@ -44,82 +44,27 @@
                             <a class="nav-link active" href="#"><button type="button" class="btn btn-outline-secondary btn-redactar" onclick="showSectionRedactar()">Redactar</button></a>
                         </li>
                         <li class="nav-item mb-3">
-                            <i class="far fa-envelope btns-nav fa-lg ml-4"></i><a class="a-nav-vertical" href="">Recibidos</a>
+                            <div onclick="getReceivedEmails()"><i class="far fa-envelope btns-nav fa-lg ml-4"></i><a class="a-nav-vertical">Recibidos</a></div>
                         </li>
                         <li class="nav-item mb-3">
-                            <i class="far fa-paper-plane btns-nav fa-lg ml-4"></i><a class="a-nav-vertical" href="">Enviados</a>
+                            <div onclick="getSendsEmails()"><i class="far fa-paper-plane btns-nav fa-lg ml-4"></i><a class="a-nav-vertical">Enviados</a></div>
                         </li>
                         <li class="nav-item mb-3">
-                            <i class="far fa-star btns-nav fa-lg ml-4"></i><a class="a-nav-vertical" href="">Destacados</a>
+                            <div onclick="getMensajesDestacados()"><i class="far fa-star btns-nav fa-lg ml-4"></i><a class="a-nav-vertical">Destacados</a></div>
                         </li>
                         <li class="nav-item mb-3">
-                            <i class="fas fa-exclamation-triangle btns-nav fa-lg ml-4"></i><a class="a-nav-vertical" href="">Spam</a>
+                            <div onclick="getReceivedEmailsSpam()"><i class="fas fa-exclamation-triangle btns-nav fa-lg ml-4"></i><a class="a-nav-vertical">Spam</a></div>
                         </li>
                         <li class="nav-item mb-3">
-                            <i class="far fa-trash-alt btns-nav fa-lg ml-4"></i><a class="a-nav-vertical" href="">Papelera</a>
+                            <div onclick="getPapelera()"><i class="far fa-trash-alt btns-nav fa-lg ml-4"></i><a class="a-nav-vertical">Papelera</a></div>
                         </li>
                     </ul>
                     <div style="margin-bottom: 660px;"></div>
                 </div>
                 <div class="col-10 border-divs">
                     <table class="table">
-                        <tbody>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-star btns-nav items-table"></i><i class="fas fa-exclamation-triangle btns-nav items-table"></i><strong>Juan Perez</strong></td>
-                                <td><strong>Tarea primer parcial</strong> - Lorem ipsum dolor sit amen</td>
-                                <td class="hora-item"><strong>10:00am</strong><i class="far fa-trash-alt btns-table trash-item"></i></td>
-                            </tr>
-
+                        <tbody id="tab-recibidos">
+                            <!---correos recibidos-->
                         </tbody>
                     </table>
                 </div>
@@ -167,7 +112,7 @@
                                 <textarea class="form-control" id="inputMensaje" rows="3"></textarea>
                             </div>
                             <div class="col-12 mt-4 btn-enviar-email">
-                                <button class="btn btn-send-email" type="submit">Enviar</button>
+                                <button class="btn btn-send-email" type="submit" onclick="enviarMensaje()">Enviar</button>
                             </div>
                         </div>
                     </div>
